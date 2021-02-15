@@ -12,6 +12,8 @@ def soluttion(ls):
     return ads
 
 
-length = [15, 10, 75, 50, 20]
+
+user_input = input('Enter the time in second for add:')
+length = user_input.split()
 
 print(soluttion(length))
